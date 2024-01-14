@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Well-Being Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="static/css/quiz.css">
+  </head>
+  <body>
+    
+   <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="https://flask-template-v2022-1.jaynesrinivas2.repl.co">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/fitness">Fitness</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/nutrition">Nutrition</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/mhealth">Mental Health</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact Us</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/FAQ">FAQs</a>
+      </li>
+    </ul>
+ 
+  <h1> <center>Are you healthy?</center></h1>
+    
+
+    <form action="/quizAction" method = "POST">
+      
+       <p>Do you regularly consume a variety of vegetables, fruits, grains, dairy, and protein in healthy proportions?</p>
+  <input type="radio" id="a1" name="set1" value="30">
+  <label for="age1">No</label><br>
+  <input type="radio" id="a2" name="set1" value="60">
+  <label for="age2">Sometimes</label><br>  
+  <input type="radio" id="a3" name="set1" value="100">
+  <label for="age3">Yes</label><br><br>
+  
+      <br> </br>
+
+        <p>How many glasses of water do you drink every day?</p>
+  <input type="radio" id="b1" name="set2" value="30">
+  <label for="age1">0-3</label><br>
+  <input type="radio" id="b2" name="set2" value="60">
+  <label for="age2">4-6</label><br>  
+  <input type="radio" id="b3" name="set2" value="100">
+  <label for="age3">7-8</label><br><br>
+  
+      <br> </br>
+
+       <p>How often do you eat outside?</p>
+  <input type="radio" id="c1" name="set3" value="30">
+  <label for="age1">Frequently</label><br>
+  <input type="radio" id="c2" name="set3" value="60">
+  <label for="age2">Sometimes</label><br>  
+  <input type="radio" id="c3" name="set3" value="100">
+  <label for="age3">Never</label><br><br>
+  
+      <br> </br>
+      
+       <p>Do you try to choose foods and drinks that are low in calories and added sugar?</p>
+  <input type="radio" id="d1" name="set4" value="30">
+  <label for="age1">No</label><br>
+  <input type="radio" id="d2" name="set4" value="60">
+  <label for="age2">Usually</label><br>  
+  <input type="radio" id="d3" name="set4" value="100">
+  <label for="age3">Yes</label><br><br>
+  
+      <br> </br>
+
+       <p>Do you drink alcohol?</p>
+  <input type="radio" id="e1" name="set5" value="30">
+  <label for="age1">Yes</label><br>
+  <input type="radio" id="e2" name="set5" value="60">
+  <label for="age2">Sometimes</label><br>  
+  <input type="radio" id="e3" name="set5" value="100">
+  <label for="age3">No</label><br><br>
+  
+      <br> </br>
+
+
+<input class = "submit" type="submit" value="Submit">
+
+<br>  </br>
+
+      
+</form>
+  </body>
+</html>
